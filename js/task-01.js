@@ -8,4 +8,4 @@ function takeNameCat(categories) {
   });
 }
 
-console.log(takeNameCat(nameCategories));
+takeNameCat(nameCategories);

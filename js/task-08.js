@@ -10,5 +10,6 @@ function onFormElemSubmit(event) {
     alert("Все поля должны быть заполнены!");
   } else {
     console.log({ email, password });
+    event.target.reset();
   }
 }
